@@ -108,7 +108,7 @@ public class SpringInitializrTui extends ToolkitApp {
     }
 
     private EventResult handleKeyEvent(KeyEvent event) {
-        if (event.isQuit()) {
+        if (event.isQuit() && !isTextFieldFocused()) {
             quit();
             return EventResult.HANDLED;
         }
