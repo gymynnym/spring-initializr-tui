@@ -62,6 +62,9 @@ buildNumber.properties
 screenshots/*.tape
 screenshots/*.gif
 
+# App config
+.spring-initializr
+
 # Claude
 /CLAUDE.md
 /.claude/
